@@ -110,14 +110,16 @@ class HashMap:
 
 
 
-
+# :) 
+# :(
+# :|
 
 
 
 h = HashMap()
 
 h.insert("cat", 10)
-h.insert("tac", 20)  # likely collision
+h.insert("tac", 20) #-- Collision 
 h.insert(100, "hello")
 
 print(h.get("cat"))
