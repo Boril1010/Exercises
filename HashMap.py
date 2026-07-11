@@ -1,16 +1,3 @@
-
-# support both int and str as keys
-# collision handling
-# performance comparison?
-# functions[insert(),get(),remove(),contains()]
-
-# basic process
-#write in value
-#hash key % size of map --> store in bucket
-#use functions to remove, get or view all entries
-
-#ord()
-
 class HashMap:
     def __init__(self):
         self.size = 10
